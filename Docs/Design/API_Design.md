@@ -20,3 +20,7 @@
 `sprintf()` function otherwise the db will complain. 
 * We will try and use a basic SQL library in Go, and intend not to use
 an ORM such as `gorm`
+
+This repo will be a combination of the API and backend logic, with functions
+returning values so that front ends in other repos (either a CLI or a web
+interface) can access the data returned. 
